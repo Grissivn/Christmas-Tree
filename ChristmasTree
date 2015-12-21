@@ -1,0 +1,9 @@
+import os
+import matplotlib.pyplot as plt
+i=o
+while i < 35:
+ while i < 25:
+  print((" " * (15-i)) + ("*"*(i*2+2)))
+  i=i+1
+ print((" " * (14)) + ("*"*(3)))
+ i=i+1
